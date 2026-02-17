@@ -1,0 +1,12 @@
+# Nacrith v7.6 - Python Dependencies
+
+# Core dependencies
+numpy>=1.24.0
+transformers>=4.30.0
+
+# Optional: for building additional trigram tables
+datasets>=2.14.0
+tqdm>=4.65.0
+
+# Build system (should be pre-installed, but listed for completeness)
+setuptools>=65.0.0
