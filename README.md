@@ -1,4 +1,10 @@
-# Nacrith CPU — Trigram Arithmetic Compression for Text
+<p align="center">
+  <img src="assets/banner.png" alt="Nacrith">
+</p>
+
+<p align="center">
+  <a href="https://nacrith.com">Website</a> · <a href="assets/nacrith_paper_cpu.pdf">Technical Paper (PDF)</a> · <a href="https://huggingface.co/spaces/robtacconelli/Nacrith">Try on Hugging Face</a> · <a href="https://github.com/st4ck/Nacrith-GPU">GPU Version</a>
+</p>
 
 **Nacrith CPU** is a **state-of-the-art lossless text compression system** that combines precomputed n-gram probability tables with arithmetic coding. Unlike the original Nacrith GPU, which runs a 135M-parameter neural network at every token, Nacrith CPU replaces the LLM with **offline-built sparse trigram tables** — delivering **superior compression on non-repetitive text** with **zero GPU requirement** and **no inference cost**.
 
